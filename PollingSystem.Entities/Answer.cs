@@ -9,20 +9,20 @@ public class Answer : Identity
         Id = id;
         Title=title;
     }
-    public string Title { get; } 
+    public string Title { get; init; } 
     public int Votes { get; set; }
-    public double Persents { get; set; }
+    public double Percents { get; private set; }
 
-    public void SetPersents(int totalVotes)
+    public void SetPercents(int totalVotes)
     {
         if (totalVotes > 0)
         {
-            Persents = Votes * 100d / totalVotes;
+            Percents = Votes * 100d / totalVotes;
         }
     }
 
     public override string ToString()
     {
-        return $" {Title} - {Votes} ({Persents:F}%)";
+        return $" {Title} - {Votes} ({Percents:F}%)";
     }
 }

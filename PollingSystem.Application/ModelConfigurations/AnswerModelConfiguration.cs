@@ -9,12 +9,12 @@ namespace PollingSystem.Application.ModelConfigurations
     {
         public void Configure(EntityTypeBuilder<Answer> builder)
         {
-            builder.
+            builder.ToTable("Answers");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Id);
-            builder.Property(x => x.Title);
+            builder.Property(x => x.Id).IsRequired();
+            builder.Property(x => x.Title).IsRequired().HasMaxLength(512);
             builder.Property(x => x.Votes);
-            builder.Property(x => x.Persents);
+            builder.Property(x => x.Percents);
 
         }
     }

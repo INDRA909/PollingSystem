@@ -1,5 +1,7 @@
 ﻿
 
+using PollingSystem.Application;
+
 var builder = new PollBuilder("How are you?")
     .AddAnswer(Guid.NewGuid(), "Fine")
     .AddAnswer(Guid.NewGuid(), "not bad")
@@ -16,6 +18,18 @@ poll.VoteTo(3);
 poll.VoteTo(2);
 poll.VoteTo(3,50);
 
+using (var context = new ApplicationDbContext())
+{
+    context.Polls.Add(poll);
+    context.SaveChanges();
+}
+using (var context = new ApplicationDbContext())
+{
+    foreach (var answer in context.Answers)
+    {
+        Console.WriteLine(answer.Title);
+    }
+}
 var result = builder.GetResults(poll);
 Console.WriteLine(result.GetView());
 

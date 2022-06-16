@@ -3,3 +3,15 @@ C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\Poll
 C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.AssemblyInfoInputs.cache
 C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.AssemblyInfo.cs
 C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\bin\Debug\net6.0\PollingSystem.Application.deps.json
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\bin\Debug\net6.0\PollingSystem.Application.runtimeconfig.json
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\bin\Debug\net6.0\PollingSystem.Application.dll
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\bin\Debug\net6.0\ref\PollingSystem.Application.dll
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\bin\Debug\net6.0\PollingSystem.Application.pdb
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\bin\Debug\net6.0\PollingSystem.Entities.dll
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\bin\Debug\net6.0\PollingSystem.Entities.pdb
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.csproj.CopyComplete
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.dll
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\ref\PollingSystem.Application.dll
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.pdb
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.genruntimeconfig.cache

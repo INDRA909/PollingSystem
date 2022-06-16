@@ -8,7 +8,12 @@ namespace PollingSystem.Application.ModelConfigurations
     {
         public void Configure(EntityTypeBuilder<Poll> builder)
         {
-            throw new NotImplementedException();
+            builder.ToTable("Poll");
+            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).IsRequired();
+            builder.Property(x => x.QuestionText).IsRequired().HasMaxLength(512);
+            builder.HasMany(x => x.Answers);
+
         }
     }
 }
