@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f4971fd2-f468-431d-b4d2-dfa5da99f569": {
+      "ProjectGuid": "f4971fd2-f468-431d-b4d2-dfa5da99f569",
+      "DisplayName": "PollingSystem.Entities",
+      "ColorIndex": 0
+    },
+    "34d98f0c-a53f-4eb0-94a2-142de0246348": {
+      "ProjectGuid": "34d98f0c-a53f-4eb0-94a2-142de0246348",
+      "DisplayName": "PollingSystem.ClientConsole",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
