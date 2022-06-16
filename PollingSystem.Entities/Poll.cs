@@ -1,17 +1,19 @@
 ﻿
+using PollingSystem.Entities.Base;
+
 namespace PollingSystem.Entities
 {
-    public class Poll
+    public class Poll : Identity
     {
-        public Poll(string questionText,List<PollAnswer> answers)
+        public Poll(string questionText,List<Answer> answers)
         {
             QuestionText=questionText;
             Answers=answers;
         }
         public string QuestionText { get; } 
-        public List<PollAnswer>? Answers { get; }
+        public List<Answer>? AnszZwers { get; }
 
-        public void VoteTo(int id,int value=1)
+        public void VoteTo(Guid id,int value=1)
         {
             var item = Answers?.SingleOrDefault(x => x.Id == id);
             if (item == null)

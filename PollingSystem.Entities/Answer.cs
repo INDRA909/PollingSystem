@@ -1,15 +1,14 @@
-﻿namespace PollingSystem.Entities;
+﻿using PollingSystem.Entities.Base;
 
-public class PollAnswer
+namespace PollingSystem.Entities;
+
+public class Answer : Identity
 {
-    public PollAnswer(int id, string title)
+    public Answer(Guid id, string title)
     {
         Id = id;
         Title=title;
     }
-
-    public int Id { get; }
-
     public string Title { get; } 
     public int Votes { get; set; }
     public double Persents { get; set; }
@@ -24,6 +23,6 @@ public class PollAnswer
 
     public override string ToString()
     {
-        return $"   {Title}({Votes} {Persents:F})";
+        return $" {Title} - {Votes} ({Persents:F}%)";
     }
 }

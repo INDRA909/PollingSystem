@@ -1,0 +1,5 @@
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.csproj.AssemblyReference.cache
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.AssemblyInfoInputs.cache
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.AssemblyInfo.cs
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Application\obj\Debug\net6.0\PollingSystem.Application.csproj.CoreCompileInputs.cache
