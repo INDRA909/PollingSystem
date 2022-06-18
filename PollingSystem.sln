@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollingSystem.Entities", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollingSystem.ClientConsole", "PollingSystem.ClientConsole\PollingSystem.ClientConsole.csproj", "{34D98F0C-A53F-4EB0-94A2-142DE0246348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollingSystem.Application", "PollingSystem.Application\PollingSystem.Application.csproj", "{9A9138B8-1955-4512-8E60-C9ECE8DD4EB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollingSystem.Application", "PollingSystem.Application\PollingSystem.Application.csproj", "{9A9138B8-1955-4512-8E60-C9ECE8DD4EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollingSystem.Web", "PollingSystem.Web\PollingSystem.Web.csproj", "{04D79FFD-B58E-41C5-9E55-9AF3D82E7F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollingSystem.Web", "PollingSystem.Web\PollingSystem.Web.csproj", "{04D79FFD-B58E-41C5-9E55-9AF3D82E7F00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

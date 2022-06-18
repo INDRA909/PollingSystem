@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ivanr/OneDrive/Рабочий стол/весь .NET/PollingSystem/PollingSystem.Web/Pages/Admin/Label.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTGFiZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ivanr/OneDrive/Рабочий стол/весь .NET/PollingSystem/PollingSystem.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
