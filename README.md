@@ -1,1 +1,1 @@
-# PollingSystem - Система голосования на сайте? c использованием Sql(EF)
+# PollingSystem - Система голосования (ASP, SQL(EF))
