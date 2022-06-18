@@ -10,7 +10,17 @@
       "ProjectGuid": "34d98f0c-a53f-4eb0-94a2-142de0246348",
       "DisplayName": "PollingSystem.ClientConsole",
       "ColorIndex": 1
+    },
+    "9a9138b8-1955-4512-8e60-c9ece8dd4eb7": {
+      "ProjectGuid": "9a9138b8-1955-4512-8e60-c9ece8dd4eb7",
+      "DisplayName": "PollingSystem.Application",
+      "ColorIndex": 2
+    },
+    "04d79ffd-b58e-41c5-9e55-9af3d82e7f00": {
+      "ProjectGuid": "04d79ffd-b58e-41c5-9e55-9af3d82e7f00",
+      "DisplayName": "PollingSystem.Web",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

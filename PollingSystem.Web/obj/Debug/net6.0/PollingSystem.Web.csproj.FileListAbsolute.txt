@@ -61,3 +61,5 @@ C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\Poll
 C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Web\obj\Debug\net6.0\ref\PollingSystem.Web.dll
 C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Web\obj\Debug\net6.0\PollingSystem.Web.pdb
 C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Web\obj\Debug\net6.0\PollingSystem.Web.genruntimeconfig.cache
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Web\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

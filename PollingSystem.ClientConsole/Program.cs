@@ -10,26 +10,26 @@ var builder = new PollBuilder("How are you?")
     .AddAnswer(Guid.NewGuid(), "Bad bad");
 
 
-var poll = builder.Build();
+//var poll = builder.Build();
 
-poll.VoteTo(1);
-poll.VoteTo(2);
-poll.VoteTo(3);
-poll.VoteTo(2);
-poll.VoteTo(3,50);
+//poll.VoteTo(1);
+//poll.VoteTo(2);
+//poll.VoteTo(3);
+//poll.VoteTo(2);
+//poll.VoteTo(3,50);
 
-using (var context = new ApplicationDbContext())
-{
-    context.Polls.Add(poll);
-    context.SaveChanges();
-}
-using (var context = new ApplicationDbContext())
-{
-    foreach (var answer in context.Answers)
-    {
-        Console.WriteLine(answer.Title);
-    }
-}
-var result = builder.GetResults(poll);
-Console.WriteLine(result.GetView());
+//using (var context = new ApplicationDbContext())
+//{
+//    context.Polls.Add(poll);
+//    context.SaveChanges();
+//}
+//using (var context = new ApplicationDbContext())
+//{
+//    foreach (var answer in context.Answers)
+//    {
+//        Console.WriteLine(answer.Title);
+//    }
+//}
+//var result = builder.GetResults(poll);
+//Console.WriteLine(result.GetView());
 

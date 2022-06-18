@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "YOO2cKwxwFY36i3O74y/ZTkyEFSVRRv+y2E851dHGXJnczw0K3uyRtB1nRYZhkq+ioH0pwNauv2wLE1+XzS1yw==",
+  "dgSpecHash": "taCdoDV1nSa5XDJezTuDKP53j/+I5zMBYb8LTG6NWDlbbkU03EsNnzbNNf15QmFT1mz3LBNH/jpUn4OOcjaRHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystem.Web\\PollingSystem.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ivanr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.6\\microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
+    "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.6\\microsoft.entityframeworkcore.design.6.0.6.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.6\\microsoft.entityframeworkcore.relational.6.0.6.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.6\\microsoft.entityframeworkcore.sqlserver.6.0.6.nupkg.sha512",
     "C:\\Users\\ivanr\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

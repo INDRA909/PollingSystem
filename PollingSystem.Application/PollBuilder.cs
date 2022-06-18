@@ -1,4 +1,7 @@
 ﻿using PollingSystem.Entities;
+
+namespace PollingSystem.Application;
+
 public class PollBuilder
 {
     private readonly string _questionText;
@@ -22,4 +25,4 @@ public class PollBuilder
     }
 
     public PollResults GetResults(Poll poll) => new(poll);
-} 
+}
