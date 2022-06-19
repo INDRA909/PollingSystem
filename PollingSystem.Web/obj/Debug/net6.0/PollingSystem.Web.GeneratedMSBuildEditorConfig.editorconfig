@@ -15,8 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ivanr\OneDrive\Рабочий стол\весь .NET\PollingSystem\PollingSystem.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ivanr/OneDrive/Рабочий стол/весь .NET/PollingSystem/PollingSystem.Web/Pages/Admin/Label.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTGFiZWwuY3NodG1s
+[C:/Users/ivanr/OneDrive/Рабочий стол/весь .NET/PollingSystem/PollingSystem.Web/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanr/OneDrive/Рабочий стол/весь .NET/PollingSystem/PollingSystem.Web/Pages/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanr/OneDrive/Рабочий стол/весь .NET/PollingSystem/PollingSystem.Web/Pages/Admin/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ivanr/OneDrive/Рабочий стол/весь .NET/PollingSystem/PollingSystem.Web/Pages/Error.cshtml]

@@ -16,7 +16,7 @@
             source.AddSingleton(definitions as IReadOnlyCollection<IAppDefinition>);
         }
 
-        public static void UseDefinition(this WebApplication sourse)
+        public static void UseDefinitions(this WebApplication sourse)
         {
             var definitions = sourse.Services.GetRequiredService<IReadOnlyCollection<IAppDefinition>>();
             var environment = sourse.Services.GetRequiredService<IWebHostEnvironment>();
