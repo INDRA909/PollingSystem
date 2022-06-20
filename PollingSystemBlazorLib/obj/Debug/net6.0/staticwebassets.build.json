@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "gXp9lGcxJUUdMVpP58yExWw7zqb9oUmVgMsHav9b+Uk=",
+  "Source": "PollingSystemBlazorLib",
+  "BasePath": "_content/PollingSystemBlazorLib",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PollingSystemBlazorLib\\wwwroot",
+      "Source": "PollingSystemBlazorLib",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PollingSystemBlazorLib.styles.css",
+      "SourceId": "PollingSystemBlazorLib",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "RelativePath": "PollingSystemBlazorLib.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PollingSystemBlazorLib.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PollingSystemBlazorLib.bundle.scp.css",
+      "SourceId": "PollingSystemBlazorLib",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "RelativePath": "PollingSystemBlazorLib.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PollingSystemBlazorLib.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\background.png",
+      "SourceId": "PollingSystemBlazorLib",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "PollingSystemBlazorLib",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

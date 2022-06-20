@@ -16,13 +16,13 @@
             source.AddSingleton(definitions as IReadOnlyCollection<IAppDefinition>);
         }
 
-        public static void UseDefinitions(this WebApplication sourse)
+        public static void UseDefinitions(this WebApplication sourсe)
         {
-            var definitions = sourse.Services.GetRequiredService<IReadOnlyCollection<IAppDefinition>>();
-            var environment = sourse.Services.GetRequiredService<IWebHostEnvironment>();
+            var definitions = sourсe.Services.GetRequiredService<IReadOnlyCollection<IAppDefinition>>();
+            var environment = sourсe.Services.GetRequiredService<IWebHostEnvironment>();
             foreach (var endpoint in definitions)
             {
-                endpoint.ConfigureApplication(sourse,environment);
+                endpoint.ConfigureApplication(sourсe,environment);
             }
         }
     }

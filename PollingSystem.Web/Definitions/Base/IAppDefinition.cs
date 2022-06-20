@@ -4,7 +4,7 @@
     public interface IAppDefinition
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="services"></param>
         /// <param name="configuration"></param>

@@ -1,17 +1,36 @@
 {
   "Version": 1,
-  "Hash": "U+A0epI3BPpF0+f0XCJ2VNpTXuSYc+i97B7vuu5sY7g=",
+  "Hash": "Vk9vvEU0pP5y3S1bLO+QJZ+zVtO8LxcPzqb6wMcnElU=",
   "Source": "PollingSystem.Web",
   "BasePath": "_content/PollingSystem.Web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\PollingSystemBlazorLib.csproj",
+      "Version": 2,
+      "Source": "PollingSystemBlazorLib",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "PollingSystem.Web\\wwwroot",
       "Source": "PollingSystem.Web",
       "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystem.Web\\wwwroot\\",
       "BasePath": "_content/PollingSystem.Web",
+      "Pattern": "**"
+    },
+    {
+      "Name": "PollingSystemBlazorLib\\wwwroot",
+      "Source": "PollingSystemBlazorLib",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
       "Pattern": "**"
     }
   ],
@@ -1069,6 +1088,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PollingSystemBlazorLib.bundle.scp.css",
+      "SourceId": "PollingSystemBlazorLib",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "RelativePath": "PollingSystemBlazorLib.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PollingSystemBlazorLib.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\background.png",
+      "SourceId": "PollingSystemBlazorLib",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "PollingSystemBlazorLib",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\ivanr\\OneDrive\\Рабочий стол\\весь .NET\\PollingSystem\\PollingSystemBlazorLib\\wwwroot\\",
+      "BasePath": "_content/PollingSystemBlazorLib",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     }
   ]
 }
