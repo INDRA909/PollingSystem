@@ -1,6 +1,4 @@
-﻿
-
-using PollingSystem.Application;
+﻿using PollingSystem.Application;
 
 var builder = new PollBuilder("How are you?")
     .AddAnswer(Guid.NewGuid(), "Fine")
@@ -8,7 +6,6 @@ var builder = new PollBuilder("How are you?")
     .AddAnswer(Guid.NewGuid(), "Bad")
     .AddAnswer(Guid.NewGuid(), "Perfect")
     .AddAnswer(Guid.NewGuid(), "Bad bad");
-
 
 //var poll = builder.Build();
 

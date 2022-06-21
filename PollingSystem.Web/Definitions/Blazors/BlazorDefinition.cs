@@ -1,22 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PollingSystem.Web.Definitions.Base;
-
-namespace PollingSystem.Web.Definitions.Blazors
+﻿using PollingSystem.Web.Definitions.Base;
+namespace PollingSystem.Web.Definitions.Blazors;
+public class BlazorDefinition : AppDefinition
 {
-    public class BlazorDefinition:AppDefinition
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="configuration"></param>
+    public override void ConfigureServices(IServiceCollection services, IConfiguration configuration)
     {
-        public override void ConfigureServices(IServiceCollection services, IConfiguration configuration)
-        {
-            services.AddServerSideBlazor();
-        }
-
-        public override void ConfigureApplication(WebApplication app, IWebHostEnvironment environment)
-        {
-            app.MapBlazorHub();
-        }
+        services.AddServerSideBlazor();
+    }
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="app"></param>
+    /// <param name="environment"></param>
+    public override void ConfigureApplication(WebApplication app, IWebHostEnvironment environment)
+    {
+        app.MapBlazorHub();
     }
 }

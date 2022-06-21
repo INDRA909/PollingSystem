@@ -11,6 +11,10 @@ public class PollResults
     {
         _poll = poll;
     }
+    /// <summary>
+    /// Возвращает строку для красивого вывода
+    /// </summary>
+    /// <returns></returns>
     public string GetView()
     {
         var stringBuilder = new StringBuilder(_poll.QuestionText);
@@ -19,7 +23,6 @@ public class PollResults
         {
             _poll.Answers.ForEach(x => stringBuilder.AppendLine(x.ToString()));
         }
-
         return stringBuilder.ToString();
     }
 }

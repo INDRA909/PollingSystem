@@ -1,8 +1,5 @@
-﻿
-namespace PollingSystem.Entities.Base
+﻿namespace PollingSystem.Entities.Base;
+public abstract class Identity
 {
-    public abstract class Identity
-    {
-        public Guid Id { get; set; }
-    }
+    public Guid Id { get; set; }
 }

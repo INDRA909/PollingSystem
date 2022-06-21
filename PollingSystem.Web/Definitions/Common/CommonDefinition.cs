@@ -1,35 +1,41 @@
 ﻿using PollingSystem.Web.Definitions.Base;
-
-namespace PollingSystem.Web.Definitions.Common
+namespace PollingSystem.Web.Definitions.Common;
+public class CommonDefinition : AppDefinition
 {
-    public class CommonDefinition :AppDefinition
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="configuration"></param>
+    public override void ConfigureServices(IServiceCollection services, IConfiguration configuration)
     {
-        public override void ConfigureServices(IServiceCollection services, IConfiguration configuration)
+        services.AddRazorPages();
+    }
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="app"></param>
+    /// <param name="environment"></param>
+    public override void ConfigureApplication(WebApplication app, IWebHostEnvironment environment)
+    {
+        if (!app.Environment.IsDevelopment())
         {
-            services.AddRazorPages();
+            app.UseExceptionHandler("/Error");
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
         }
 
-        public override void ConfigureApplication(WebApplication app, IWebHostEnvironment environment)
-        {
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+        app.UseHttpsRedirection();
+        app.UseStaticFiles();
 
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
+        app.UseAuthentication();
+        app.UseRouting();
 
-            app.UseAuthentication();
-            app.UseRouting();
+        app.UseAuthorization();
 
-            app.UseAuthorization();
+        app.MapRazorPages();
 
-            app.MapRazorPages();
-
-            app.Run();
-
-        }
+        app.Run();
     }
 }
+

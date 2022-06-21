@@ -8,7 +8,7 @@ namespace PollingSystem.Application
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
         public DbSet<Poll> Polls { get; set; }
         public DbSet<Answer> Answers { get; set; }
